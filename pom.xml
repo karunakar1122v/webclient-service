@@ -6,7 +6,7 @@
 	<groupId>com.doj</groupId>
 	<artifactId>com.doj.web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>webclient-microservice-server</name>
 	<description>It is microservice web client server using Spring Boot</description>
