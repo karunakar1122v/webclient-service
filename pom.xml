@@ -51,6 +51,11 @@
          <groupId>javax.servlet</groupId>
          <artifactId>jstl</artifactId>
       </dependency>
+      <dependency>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.7.5.201505241946</version>
+        </dependency>
    </dependencies>
    <dependencyManagement>
       <dependencies>
@@ -72,7 +77,7 @@
          <plugin>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.5.5.201112152213</version>
+            <version>0.7.5.201505241946</version>
             <configuration>
                <destFile>${basedir}/target/coverage-reports/jacoco.exec</destFile>
                <dataFile>${basedir}/target/coverage-reports/jacoco.exec</dataFile>
