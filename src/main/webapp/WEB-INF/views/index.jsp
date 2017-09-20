@@ -40,7 +40,7 @@
 		
 		<div class="row">
 			
-			<h1>Accounts Web - Home Page- After jacoco</h1>
+			<h1>Accounts Web - Home Page- COE DEMO</h1>
 
 			<ul>
 				<li><a href="/accountList">View Account List</a></li>
