@@ -18,7 +18,7 @@ public class WebclientMicroserviceServerApplication {
 	}
 	
 	@Bean
-	@LoadBalanced
+	//@LoadBalanced
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
 	}
