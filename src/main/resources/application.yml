@@ -13,8 +13,6 @@
  # client:
  #   serviceUrl:
  #     defaultZone: http://10.1.4.6:1111/eureka/
-server:
-   port: 2222
 
 # Disable Spring Boot's "Whitelabel" default error page, so we can use our own
 error:
