@@ -3,10 +3,10 @@
 #spring:
 #  application:
  #   name: accounts-web
-  mvc:
-    view:
-      prefix: /WEB-INF/views/
-      suffix: .jsp
+ # mvc:
+ #   view:
+ #     prefix: /WEB-INF/views/
+ #     suffix: .jsp
 
 # Discovery Server Access
 #eureka:
