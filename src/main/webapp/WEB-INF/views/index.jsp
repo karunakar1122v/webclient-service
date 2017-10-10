@@ -44,6 +44,7 @@
 
 			<ul>
 				<li><a href="/accountList">View Account List</a></li>
+				<li><a href="/employee.php">View Employees List</a></li>
 			</ul>
 			
 		</div>
