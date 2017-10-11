@@ -41,7 +41,7 @@
 		
 		<div class="row">
 			
-			<h1>Microservices Web - Home Page</h1>
+			<h1>Microservices Web - HomePage </h1>
 
 			<ul>
 				<li><a href="/accountList">View Account List</a></li>
