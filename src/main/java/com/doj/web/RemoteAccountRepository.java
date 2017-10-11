@@ -7,8 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author Dinesh.Rajput
- *
+ * @author Karunakar
  */
 public class RemoteAccountRepository implements AccountRepository {
 	

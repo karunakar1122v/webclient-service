@@ -6,7 +6,7 @@ package com.doj.web;
 import java.util.List;
 
 /**
- * @author Dinesh.Rajput
+ * @author Karunakar
  *
  */
 public interface EmployeeRepository {

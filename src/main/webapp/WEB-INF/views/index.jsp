@@ -21,17 +21,18 @@
 			<nav class="navbar navbar-inverse">
 				<div class="container-fluid">
 					<div class="navbar-header">
-						<a title="Spring IO" href="http://www.spring.io"> 
-							<img src="<c:url value="resources/images/spring-trans-dark.png"/>" height="50"/>
+						<a title="Kubernetes" href="https://172.16.6.4:31863/#!/pod?namespace=default"> 
+							<img src="<c:url value="resources/images/kuberenetes.png"/>" height="60"/>
+							Kubernetes Cluster -- All microservices deployed for this application on Kubernetes cluster.If you click on here on to redirect to Kubenrtes page
 						</a>
 					</div>
 					<div>
 						<ul class="nav navbar-nav navbar-right">
-							<li>
-								<a href="http://www.pivotal.io">
-									<img alt="Pivotal" title="Pivotal" height="20" src="<c:url value="resources/images/pivotal-logo-600.png" />" />
+							
+								<a href="https://172.16.6.4:31863/#!/pod?namespace=default">
+									<img alt="Pivotal" title="Kubernetes" src="<c:url value="resources/images/kuberenetes.png" />"  height="60" />
 								</a>
-							</li>
+							
 						</ul>
 					</div>
 				</div>
@@ -40,7 +41,7 @@
 		
 		<div class="row">
 			
-			<h1>Accounts Web - Home Page- Kubernetes</h1>
+			<h1>Web - Home Page</h1>
 
 			<ul>
 				<li><a href="/accountList">View Account List</a></li>
