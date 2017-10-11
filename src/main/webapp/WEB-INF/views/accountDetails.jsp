@@ -19,7 +19,7 @@
 	<div class="container">
 		<div class="row">
 			<nav class="navbar navbar-inverse">
-				<div class="container-fluid">
+				<div class="container-fluid" style="color:#f5f5f5">
 					<div class="navbar-header">
 						<a title="Kubernetes" href="https://172.16.6.4:31863/#!/pod?namespace=default"> 
 							<img src="<c:url value="resources/images/kuberenetes.png"/>" height="60"/>
