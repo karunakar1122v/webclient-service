@@ -19,6 +19,9 @@ public class AccountController {
 	@Autowired
 	AccountRepository accountRepository;
 	
+	@Autowired
+	EmployeeRepository employeeRepository;
+	
 	@RequestMapping("/")
 	public String home(){
 		return "index";
@@ -28,15 +31,19 @@ public class AccountController {
 		model.addAttribute("accounts", accountRepository.getAllAccounts());
 		return "accountList";
 	}
-	@RequestMapping("/getEmployeeList")
-	public String employeeList(Model model) {
-		model.addAttribute("employees", accountRepository.getEmployeeList());
-		return "employees";
-	}
+	
 	
 	@RequestMapping("/accountDetails")
 	public String accountDetails(@RequestParam("number") String id, Model model) {
 		model.addAttribute("account", accountRepository.getAccount(id));
 		return "accountDetails";
+	}
+	
+	@RequestMapping("/getEmployeeList")
+	public String employeeList(Model model) {
+		
+		model.addAttribute("employees", employeeRepository.getAllEmployees());
+		
+		return "employeeDetails";
 	}
 }

@@ -37,6 +37,7 @@
 				</div>
 			</nav>
 			<div style="text-align: right">[ <a href="/">Home</a> ]</div>
+			<div style="text-align: right">[ <a href="/getEmployeeList">Employees</a> ]</div>
 		</div>
 		
 		<div class="row">

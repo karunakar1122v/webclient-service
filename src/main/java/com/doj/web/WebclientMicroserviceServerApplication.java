@@ -11,7 +11,8 @@ import org.springframework.web.client.RestTemplate;
 //@EnableDiscoveryClient
 public class WebclientMicroserviceServerApplication {
 	
-	public static final String ACCOUNTS_SERVICE_URL = "http://account-service:3333";
+	public static final String ACCOUNTS_SERVICE_URL = "http://172.16.6.4:30780";
+	public static final String EMPLOYEE_SERVICE_URL = "http://172.16.6.4:30090";
 	
 	public static void main(String[] args) {
 		SpringApplication.run(WebclientMicroserviceServerApplication.class, args);
@@ -25,5 +26,9 @@ public class WebclientMicroserviceServerApplication {
 	@Bean
 	public AccountRepository accountRepository(){
 		return new RemoteAccountRepository(ACCOUNTS_SERVICE_URL);
+	}
+	@Bean
+	public EmployeeRepository employeeRepository(){
+		return  new RemoteEmployeeRepository(EMPLOYEE_SERVICE_URL);
 	}
 }

@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="<c:url value="resources/styles/bootstrap/3.3.5/css/bootstrap.min.css" />" />
     <link rel="stylesheet" href="<c:url value="resources/styles/bootstrap/3.3.5/css/bootstrap-theme.min.css" />" />
     <link rel="stylesheet" href="<c:url value="resources/styles/pivotal.css" />" />
-	<title>spring-microservices: Account Details</title>
+	<title>spring-microservices: Employee Details</title>
 </head>
 
 <body>
@@ -37,39 +37,36 @@
 				</div>
 			</nav>
 			<div style="text-align: right">[ <a href="<c:url value='/'/>">Home</a>
-              | <a href="accountList">Accounts</a><div style="text-align: right"><a href="/getEmployeeList">Employees</a> ]</div>
+              | <a href="accountList">Accounts</a> ]</div>
 		</div>
 		
 		<div class="row">
 			
-			<h1>Account Details</h1>
+			<h0>Employee Details</h0>
 			
+		
+				<c:forEach items="${employees}" var="employees">
+					
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-sm-3">
-						Account:
+					
+					<div class="col-sm-1">
+						${employees.id}
 					</div>
-					<div class="col-sm-9">
-						${account.number}
+					<div class="col-sm-1">
+						${employees.firstname}
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-3">
-						Name:
+					<div class="col-sm-1">
+						${employees.lastname}
 					</div>
-					<div class="col-sm-9">
-						${account.name}
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-3">
-						Amount:
-					</div>
-					<div class="col-sm-9">
-						${account.amount}
+					<div class="col-sm-2">
+						${employees.role}
 					</div>
 				</div>
+				
 			</div>
+				</c:forEach>
+			
 								
 		</div>
 
