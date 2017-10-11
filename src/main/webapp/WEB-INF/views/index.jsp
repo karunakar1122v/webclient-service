@@ -23,7 +23,7 @@
 					<div class="navbar-header">
 						<a title="Kubernetes" href="https://172.16.6.4:31863/#!/pod?namespace=default"> 
 							<img src="<c:url value="resources/images/kuberenetes.png"/>" height="60"/>
-							Kubernetes Cluster -- All microservices deployed for this application on Kubernetes cluster.If you click on here on to redirect to Kubenrtes page
+							Kubernetes Cluster -- All microservices  for this application deployed on Kubernetes cluster.If you click on here it will redirect to Kubernetes Dashboard.
 						</a>
 					</div>
 					<div>
