@@ -43,7 +43,7 @@
 		
 		<div class="row">
 			
-			<h1>Account List</h1>
+			<h1>Account List Display Page</h1>
 
 			<ul>
 				<c:forEach items="${accounts}" var="account">
